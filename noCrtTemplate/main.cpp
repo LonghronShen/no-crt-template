@@ -3,7 +3,7 @@
 
 #include <Windows.h>
 
-void __stdcall WinMainCRTStartup()
+void __stdcall _mainCRTStartup()
 {
 	TestRoutine();
 
